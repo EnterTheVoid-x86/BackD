@@ -12,7 +12,7 @@ testingbranch=1
 echo "Welcome to BACKDv2."
 echo "Which directory do you want to backup?"
 read dirchoice
-echo "Where do you want to backup $USER's $input directory?"
+echo "Where do you want to backup $USER's $dirchoice directory?"
 read choicefordirback
 
 user=$(whoami)
