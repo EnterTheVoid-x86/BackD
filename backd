@@ -17,8 +17,8 @@ read choicefordirback
 
 user=$(whoami)
 input=$dirchoice
-output=/$choice/${user}_directory_$(date +%Y-%m-%d_%H%M%S).tar.gz
-file=/$choice/${user}_directory_$(date +%Y-%m-%d_%H%M%S).tar.gz
+output=/$choicefordirback/${user}_directory_$(date +%Y-%m-%d_%H%M%S).tar.gz
+file=/$choicefordirback/${user}_directory_$(date +%Y-%m-%d_%H%M%S).tar.gz
 
 echo "Starting backup as $user..."
 
